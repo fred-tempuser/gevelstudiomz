@@ -1,16 +1,16 @@
 /*==== Choose Section Three =====================*/
 .tv-choose-section.style-4 {
 	.tv-choose-inner {
-		&::before {
-			position: absolute;
-			content: "";
-			z-index: 0;
-			top: 800px;
-			left: 0;
-			height: 100%;
-			width: 100%;
-			background: $dark-color;
-		}
+		// &::before {
+		// 	position: absolute;
+		// 	content: "";
+		// 	z-index: 0;
+		// 	top: 800px;
+		// 	left: 0;
+		// 	height: 100%;
+		// 	width: 100%;
+		// 	background: $dark-color;
+		// }
 
 		.choose-tab {
 			display: flex;
@@ -19,7 +19,7 @@
 			padding: 15px;
 			border: 1px solid $border-color8;
 			border-radius: 43px;
-			max-width: 740px;
+			max-width: 1100px;
 			justify-content: space-between;
 			text-align: center;
 			margin: 0 auto;
@@ -36,7 +36,7 @@
 				align-items: center;
 				gap: 10px;
 				background: $light-color;
-				padding: 15px 34px;
+				padding: 15px 20px;
 				border-radius: 30px;
 				cursor: pointer;
 				position: relative;

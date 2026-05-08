@@ -9753,8 +9753,6 @@ a.text-theme:hover,
 }
 .main-menu > ul > li.menu-item-has-children > a::before {
   position: absolute;
-  content: "\f107";
-  font-family: var(--icon-font);
   font-weight: 600;
   font-size: 12px;
   right: 0;
@@ -9779,12 +9777,6 @@ a.text-theme:hover,
 }
 .main-menu ul li:first-child {
   margin-left: 0 !important;
-}
-.main-menu ul li:hover > ul.sub-menu {
-  visibility: visible;
-  opacity: 1;
-  transform: scaleY(1);
-  z-index: 9;
 }
 .main-menu ul.sub-menu {
   position: absolute;
@@ -9862,7 +9854,6 @@ a.text-theme:hover,
 }
 .main-menu ul.sub-menu li a::before {
   position: absolute;
-  content: "";
   width: 0;
   height: 2px;
   left: 0;
@@ -9872,19 +9863,6 @@ a.text-theme:hover,
   opacity: 0;
   z-index: -1;
   transition: all 0.4s ease 0s;
-}
-.main-menu ul.sub-menu li.menu-item-has-children > a::after {
-  font-family: var(--icon-font);
-  content: "\f105";
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  display: block;
-  line-height: 24px;
-  font-size: 11px;
-  font-weight: 900;
-  z-index: 5;
 }
 .main-menu ul.sub-menu li ul.sub-menu {
   left: 100%;
@@ -12307,7 +12285,7 @@ a.text-theme:hover,
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content {
   position: relative;
   z-index: 1;
-  padding: 340px 0 120px 0;
+  padding: 240px 0 120px 0;
   /* Medium Large devices */
 }
 @media (max-width: 1399px) {
@@ -17744,16 +17722,6 @@ a.text-theme:hover,
 }
 
 /*==== Choose Section Three =====================*/
-.tv-choose-section.style-4 .tv-choose-inner::before {
-  position: absolute;
-  content: "";
-  z-index: 0;
-  top: 800px;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--dark-color);
-}
 .tv-choose-section.style-4 .tv-choose-inner .choose-tab {
   display: flex;
   align-items: center;
@@ -17761,7 +17729,7 @@ a.text-theme:hover,
   padding: 15px;
   border: 1px solid var(--bs-border-color8);
   border-radius: 43px;
-  max-width: 740px;
+  max-width: 1100px;
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
@@ -17780,7 +17748,7 @@ a.text-theme:hover,
   align-items: center;
   gap: 10px;
   background: var(--light-color);
-  padding: 15px 34px;
+  padding: 15px 20px;
   border-radius: 30px;
   cursor: pointer;
   position: relative;
