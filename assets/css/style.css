@@ -3510,17 +3510,17 @@ body.bg-title .scroll-top::after {
 }
 @media (max-width: 430px) {
   .sec-title {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 @media (max-width: 414px) {
   .sec-title {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media (max-width: 360px) {
   .sec-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -12279,7 +12279,7 @@ a.text-theme:hover,
 }
 @media (max-width: 767px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area::before {
-    background-image: linear-gradient(100deg, rgb(5, 17, 83) 0%, rgb(5, 17, 83) 38%, rgba(5, 17, 83, 0) 85%, rgba(5, 17, 83, 0) 100%);
+    background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgba(255, 86, 0, 0.51) 40%, rgba(5, 17, 83, 0) 55%, rgba(5, 17, 83, 0) 100%);
   }
 }
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content {
@@ -21142,15 +21142,9 @@ a.text-theme:hover,
   background: var(--bs-bg-color5);
   padding: 25px 0;
   height: 100%;
-  max-width: 200px;
+  max-width: 150px;
   width: 100%;
   border-radius: 10px;
-  /* Medium devices */
-}
-@media (max-width: 991px) {
-  .tv-brands-section.style-3 .sponsors-outer .brand-item {
-    max-width: inherit;
-  }
 }
 .tv-brands-section.style-3 .brands-slider-three {
   position: relative;
@@ -21161,7 +21155,7 @@ a.text-theme:hover,
   z-index: 2;
   left: 0;
   top: 0;
-  width: 250px;
+  width: 150px;
   height: 100%;
   background: linear-gradient(90deg, rgb(6, 154, 254) 0%, rgba(233, 237, 237, 0) 100%);
 }
@@ -21171,7 +21165,7 @@ a.text-theme:hover,
   z-index: 2;
   right: 0;
   top: 0;
-  width: 250px;
+  width: 150px;
   height: 100%;
   background: linear-gradient(90deg, rgba(5, 17, 83, 0) 0%, rgb(9, 156, 255) 100%);
 }
@@ -23161,7 +23155,6 @@ a.text-theme:hover,
 .gallery-single-box {
   position: relative;
   overflow: hidden;
-  border-radius: 24px;
   /* Medium devices */
 }
 @media (max-width: 991px) {
@@ -23200,6 +23193,17 @@ a.text-theme:hover,
 }
 @media (max-width: 991px) {
   .gallery-single-box .gallery-thumb > img {
+    height: 100%;
+  }
+}
+.gallery-single-box .gallery-thumb > video {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Medium devices */
+}
+@media (max-width: 991px) {
+  .gallery-single-box .gallery-thumb > video {
     height: 100%;
   }
 }
