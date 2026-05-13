@@ -446,7 +446,7 @@ JS TABLE OF CONTENTS
 					layoutMode: 'fitRows'
 				});
 
-				document.querySelector('.portfolio-filter').addEventListener('click', (e) => {
+				document.querySelector('.portfólio-filter').addEventListener('click', (e) => {
 					if (e.target.matches('li')) {
 						iso.arrange({
 							filter: e.target.getAttribute('data-filter')
@@ -837,9 +837,9 @@ JS TABLE OF CONTENTS
 
 				if ($.fn.isotope) {
 
-					var $portfolio = $('.image_load'); // Fixed selector typo
+					var $portfólio = $('.image_load'); // Fixed selector typo
 
-					$portfolio.isotope({
+					$portfólio.isotope({
 
 						itemSelector: '.grid-item',
 						filter: '*',
@@ -854,7 +854,7 @@ JS TABLE OF CONTENTS
 						$(this).addClass('active');
 
 						var selector = $(this).attr('data-filter');
-						$portfolio.isotope({
+						$portfólio.isotope({
 							filter: selector
 						});
 					});
@@ -1385,7 +1385,7 @@ JS TABLE OF CONTENTS
 				},
 				breakpoints: {
 					1199: {
-						slidesPerView: 3,
+						slidesPerView: 4,
 					},
 					1024: {
 						slidesPerView: 2,
@@ -1668,8 +1668,8 @@ JS TABLE OF CONTENTS
 
 
 	// Case Slider
-	if ($('.portfolio-slider').length) {
-		new Swiper(".portfolio-slider", {
+	if ($('.portfólio-slider').length) {
+		new Swiper(".portfólio-slider", {
 			direction: "horizontal",
 			mousewheel: true,
 			spaceBetween: 24,
