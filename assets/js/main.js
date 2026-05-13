@@ -1368,12 +1368,48 @@ JS TABLE OF CONTENTS
 		}
 
 		// Service Slider use this project home2
+		if ($('.service-slider-2').length) {
+			new Swiper(".service-slider-2", {
+				spaceBetween: 24,
+				speed: 3000,
+				loop: true,
+				// autoplay: true,
+				autoplay: {
+					delay: 100,
+					disableOnInteraction: false,
+				},
+				pagination: false,
+				navigation: {
+					prevEl: ".array-prev",
+					nextEl: ".array-next",
+				},
+				breakpoints: {
+					1199: {
+						slidesPerView: 3,
+					},
+					1024: {
+						slidesPerView: 2,
+					},
+					768: {
+						slidesPerView: 2,
+					},
+					576: {
+						slidesPerView: 2,
+					},
+					0: {
+						slidesPerView: 1,
+					},
+				},
+			});
+		}
+
+		// Service Slider use this project home2
 		if ($('.service-slider').length) {
 			new Swiper(".service-slider", {
 				spaceBetween: 24,
 				speed: 1500,
 				loop: true,
-				autoplay: false,
+				autoplay: true,
 				pagination: false,
 				navigation: {
 					prevEl: ".array-prev",
