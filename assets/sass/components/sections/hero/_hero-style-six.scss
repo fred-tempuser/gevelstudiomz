@@ -33,22 +33,22 @@
         .hero-content {
           position: relative;
           z-index: 1;
-          padding: 240px 0 120px 0;
+          padding: 50px 0 20px 0;
 
           @include ml {
-            padding: 150px 0 125px 0;
+            padding: 50px 0 20px 0;
           }
 
           @include xl {
-            padding: 160px 0 100px 0;
+            padding: 30px 0 10px 0;
           }
 
           @include lg {
-            padding: 160px 0 100px 0;
+            padding: 30px 0 10px 0;
           }
 
           @include sm {
-            padding: 120px 0 80px 0;
+            padding: 20px 0 10px 0;
           }
 
           .sub-title {
@@ -70,7 +70,7 @@
           }
 
           .hero-title {
-            font-size: 80px;
+            font-size: 50px;
             line-height: 1.1;
             color: $white-color;
             font-weight: 800;
@@ -81,11 +81,11 @@
             }
 
             @include xl {
-              font-size: 80px;
+              font-size: 50px;
             }
 
             @include lg {
-              font-size: 80px;
+              font-size: 50px;
             }
 
             @include sm {
