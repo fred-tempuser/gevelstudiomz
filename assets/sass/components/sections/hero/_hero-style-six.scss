@@ -14,7 +14,8 @@
         }
 
         &::before {
-          background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgb(255 86 0 / 51%) 40%, rgba(5, 17, 83, 0) 55%, rgba(5, 17, 83, 0) 100%);
+          // background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgba(44, 15, 0, 0.51) 40%, rgba(0, 0, 0, 0.527) 55%, rgba(9, 0, 0, 0.716) 100%);
+          background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgb(44 15 0 / 79%) 40%, rgb(10 1 0 / 80%) 55%, rgb(22 6 0 / 94%) 100%);
           position: absolute;
           content: "";
           width: 100%;
@@ -24,7 +25,7 @@
           z-index: 0;
 
           @include sm {
-            background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgb(255 86 0 / 51%) 40%, rgba(5, 17, 83, 0) 55%, rgba(5, 17, 83, 0) 100%);
+            background-image: linear-gradient(68deg, rgba(255, 86, 0, 0.878) 0%, rgb(44 15 0 / 79%) 40%, rgb(10 1 0 / 80%) 55%, rgb(22 6 0 / 94%) 100%);
           }
         }
 
