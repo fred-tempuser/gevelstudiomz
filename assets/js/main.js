@@ -1047,7 +1047,7 @@ JS TABLE OF CONTENTS
 				setTimeout(function () {
 					$('#loader').hide();
 
-					$('.more-items:hidden').slice(0, 2).slideDown();
+					$('.more-items:hidden').slice(0, 3).slideDown();
 
 					loadMoreButton.find('.btn-title').html(originalButtonText);
 					loadMoreButton.removeClass('i-none');
