@@ -1116,7 +1116,7 @@ JS TABLE OF CONTENTS
 						slidesPerView: 2,
 					},
 					0: {
-						slidesPerView: 1,
+						slidesPerView: 2,
 					}
 				},
 			});
@@ -1145,7 +1145,7 @@ JS TABLE OF CONTENTS
 					854: { slidesPerView: 4 },
 					767: { slidesPerView: 3 },
 					540: { slidesPerView: 2 },
-					0: { slidesPerView: 1 },
+					0: { slidesPerView: 2 },
 				},
 				on: {
 					init(swiper) {
@@ -1366,6 +1366,43 @@ JS TABLE OF CONTENTS
 				},
 			});
 		}
+
+		// Service Slider use this project home2
+		if ($('.service-slider-3').length) {
+			new Swiper(".service-slider-3", {
+				spaceBetween: 24,
+				speed: 3000,
+				loop: true,
+				// autoplay: true,
+				autoplay: {
+					delay: 100,
+					disableOnInteraction: false,
+				},
+				pagination: false,
+				navigation: {
+					prevEl: ".array-prev",
+					nextEl: ".array-next",
+				},
+				breakpoints: {
+					1199: {
+						slidesPerView: 3,
+					},
+					1024: {
+						slidesPerView: 2,
+					},
+					768: {
+						slidesPerView: 2,
+					},
+					576: {
+						slidesPerView: 2,
+					},
+					0: {
+						slidesPerView: 1,
+					},
+				},
+			});
+		}
+
 
 		// Service Slider use this project home2
 		if ($('.service-slider-2').length) {
