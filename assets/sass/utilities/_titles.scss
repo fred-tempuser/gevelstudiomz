@@ -82,18 +82,18 @@
 
 // Default styles for section title and text
 .sec-title {
-  font-size: 42px;
+  font-size: 35px;
   line-height: 1.2;
   font-weight: 700;
   position: relative;
   margin-bottom: 20px;
 
   @include xl {
-    font-size: 38px;
+    font-size: 35px;
   }
 
   @include laptop-l {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   @include nestHub {

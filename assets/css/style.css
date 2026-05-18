@@ -3480,7 +3480,7 @@ body.bg-title .scroll-top::after {
 }
 
 .sec-title {
-  font-size: 42px;
+  font-size: 35px;
   line-height: 1.2;
   font-weight: 700;
   position: relative;
@@ -3489,12 +3489,12 @@ body.bg-title .scroll-top::after {
 }
 @media (max-width: 1299px) {
   .sec-title {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 @media (max-width: 1280px) {
   .sec-title {
-    font-size: 34px;
+    font-size: 30px;
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -12314,7 +12314,7 @@ a.text-theme:hover,
 }
 @media (max-width: 767px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content {
-    padding: 20px 0 10px 0;
+    padding: 30px 0 30px 0;
   }
 }
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .sub-title {
@@ -12324,7 +12324,7 @@ a.text-theme:hover,
   color: var(--white-color);
   font-family: var(--title-font);
   font-weight: 500;
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   padding: 3px 30px 3px 15px;
   border-radius: 30px;
   background-color: transparent;
@@ -12356,7 +12356,7 @@ a.text-theme:hover,
 }
 @media (max-width: 1199px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
@@ -12364,7 +12364,7 @@ a.text-theme:hover,
 }
 @media (max-width: 767px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
@@ -12372,12 +12372,12 @@ a.text-theme:hover,
 }
 @media (max-width: 575px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 @media (max-width: 430px) {
   .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .hero-title {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 .tv-hero-section.style-6 .hero-inner .hero-slider-2 .hero-area .hero-content .border {
@@ -14518,8 +14518,8 @@ a.text-theme:hover,
   z-index: 2;
 }
 .tv-about-section.style-5 .about-midle .about-card .about-details h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 25px;
   color: var(--white-color);
   font-weight: 600;
   font-family: var(--title-font);

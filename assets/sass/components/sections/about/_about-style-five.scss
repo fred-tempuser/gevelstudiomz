@@ -144,13 +144,13 @@
         z-index: 2;
 
         h5 {
-          font-size: 22px;
-          line-height: 32px;
+          font-size: 18px;
+          line-height: 25px;
           color: $white-color;
           font-weight: 600;
           font-family: $title-font;
 
-          @include mobile-xl{
+          @include mobile-xl {
             font-size: 16px;
           }
         }
@@ -204,7 +204,7 @@
       border-radius: 30px;
       overflow: hidden;
 
-      @include xl{
+      @include xl {
         padding: 20px;
       }
 
